@@ -19,6 +19,7 @@ import Profile from './Pages/Profile/Profile'
 import AuthProvider from './providers/AuthProvider'
 import Private from './Route/Private'
 import Secret from './Pages/Shared/Secret/Secret'
+import UpdateSingleStudent from './Pages/Profile/UpdateSingleStudent'
 
 
 const router = createBrowserRouter([
@@ -64,6 +65,11 @@ const router = createBrowserRouter([
       {
         path: "profile",
         element: <Profile />
+      },
+      {
+        path: "update/:id",
+        element: <UpdateSingleStudent />,
+        loader: ({params}) => fetch(`http://localhost:5000/students/${params.id}`)
       },
       {
         path: "secret",
