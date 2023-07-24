@@ -30,7 +30,7 @@ const Navbar = () => {
 
     return (
         <div className='flex items-center justify-between mx-0 sticky top-0 z-20 py-5 bg-blue-500 text-white px-5'>
-            <Link to='/'>EduHub</Link>
+            <Link className='text-2xl font-semibold' to='/'>EduHub</Link>
 
             <div>
                 <div className='md:hidden' onClick={() => setOpen(!open)}>

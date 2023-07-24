@@ -5,7 +5,7 @@ const Profile = () => {
     const [students, setStudents] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/students')
+        fetch('https://collage-management-application-server-mahdiwebx-gmailcom.vercel.app/students')
             .then(res => res.json())
             .then(data => setStudents(data))
     }, [])

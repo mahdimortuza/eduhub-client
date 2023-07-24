@@ -5,7 +5,7 @@ import { AuthContext } from '../../providers/AuthProvider';
 
 const SignUp = () => {
 
-    const {createUser} = useContext(AuthContext)
+    const {createUser, signInWithGoogle} = useContext(AuthContext)
 
 
     const handleSubmit = event => {
@@ -21,6 +21,17 @@ const SignUp = () => {
         })
 
         form.reset()
+    }
+
+    const GoogleSignIn = () => {
+        signInWithGoogle()
+        .then(result => {
+            const loggedUser = result.user
+            console.log(loggedUser)
+        })
+        .catch(error => {
+            console.log(error)
+        })
     }
     return (
         <div className='mt-16'>
@@ -46,10 +57,10 @@ const SignUp = () => {
                                     </label>
                                 </div>
                                 <div className="form-control mt-6">
-                                    <button className="btn bg-blue-500 text-white hover:bg-blue-700">Login</button>
+                                    <button className="btn bg-blue-500 text-white hover:bg-blue-700">Sign Up</button>
                                 </div>
                                 <div className='mt-5'>
-                                    <button className='flex items-center w-full border border-[#4285F4] rounded px-2 py-1 text-[#4285F4]'><FaGoogle></FaGoogle><span className='ml-3'> Sign Up with Google</span></button>
+                                    <button onClick={GoogleSignIn} className='flex items-center w-full border border-[#4285F4] rounded px-2 py-1 text-[#4285F4]'><FaGoogle></FaGoogle><span className='ml-3'> Sign Up with Google</span></button>
                                     <button className='flex items-center w-full border border-[#3b5998] rounded px-2 py-1 text-[#3b5998] mt-2'><FaFacebook></FaFacebook> <span className='ml-3'> Sign Up with Facebook</span></button>
                                 </div>
                                 <p className='mt-5 text-sm'>Already have an account? <span className='badge badge-outline bg-blue-500 text-white hover:bg-blue-700 px-3 py-3'><Link to='/login'>Login here.</Link></span> </p>

@@ -39,7 +39,7 @@ const router = createBrowserRouter([
       {
         path: "collage/:id",
         element: <CollageDetails />,
-        loader: ({ params }) => fetch(`http://localhost:5000/collages/${params.id}`)
+        loader: ({ params }) => fetch(`https://collage-management-application-server-mahdiwebx-gmailcom.vercel.app/collages/${params.id}`)
       },
       {
         path: "admission",
@@ -48,7 +48,7 @@ const router = createBrowserRouter([
       {
         path: "admit/:id",
         element: <Admit />,
-        loader: ({ params }) => fetch(`http://localhost:5000/collages/${params.id}`)
+        loader: ({ params }) => fetch(`https://collage-management-application-server-mahdiwebx-gmailcom.vercel.app/collages/${params.id}`)
       },
       {
         path: "my-collage",
@@ -69,7 +69,7 @@ const router = createBrowserRouter([
       {
         path: "update/:id",
         element: <UpdateSingleStudent />,
-        loader: ({params}) => fetch(`http://localhost:5000/students/${params.id}`)
+        loader: ({params}) => fetch(`https://collage-management-application-server-mahdiwebx-gmailcom.vercel.app/students/${params.id}`)
       },
       {
         path: "secret",

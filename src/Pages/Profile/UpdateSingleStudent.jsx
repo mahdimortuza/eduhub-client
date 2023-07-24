@@ -20,7 +20,7 @@ const UpdateSingleStudent = () => {
         const updateStudent = { collage_name, name, subject, email, address, phone, birth, Image }
         console.log(updateStudent)
 
-        fetch(`http://localhost:5000/students/${_id}`, {
+        fetch(`https://collage-management-application-server-mahdiwebx-gmailcom.vercel.app/students/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

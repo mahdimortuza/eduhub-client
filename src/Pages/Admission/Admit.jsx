@@ -21,7 +21,7 @@ const Admit = () => {
         const student = { collage_name, name, subject, email, address, phone, birth, Image }
         console.log(student)
 
-        fetch('http://localhost:5000/students', {
+        fetch('https://collage-management-application-server-mahdiwebx-gmailcom.vercel.app/students', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'

@@ -12,7 +12,7 @@ import '@smastrom/react-rating/style.css'
 const Reviews = () => {
     const [reviews, setReviews] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/reviews')
+        fetch('https://collage-management-application-server-mahdiwebx-gmailcom.vercel.app/reviews')
             .then(res => res.json())
             .then(data => setReviews(data))
     }, [])

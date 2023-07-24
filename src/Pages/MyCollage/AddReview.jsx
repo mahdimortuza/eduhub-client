@@ -10,7 +10,7 @@ const AddReview = () => {
         const data = {userName, feedback, rating}
         console.log(data)
 
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://collage-management-application-server-mahdiwebx-gmailcom.vercel.app/reviews', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
