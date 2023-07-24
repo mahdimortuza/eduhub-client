@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "rating": 5,
+      "userName": "John Doe",
+      "userImg": "photo.avif",
+      "feedback": "Excellent service, easy to use!"
+    },
+    {
+      "id": 2,
+      "rating": 4,
+      "userName": "Jane Smith",
+      "userImg": "photo.avif",
+      "feedback": "Great experience, smooth process."
+    },
+    {
+      "id": 3,
+      "rating": 3.5,
+      "userName": "Robert Johnson",
+      "userImg": "photo.avif",
+      "feedback": "Highly recommended! Love it."
+    },
+    {
+      "id": 4,
+      "rating": 3,
+      "userName": "Emily Williams",
+      "userImg": "photo.avif",
+      "feedback": "Decent software, room for improvement."
+    },
+    {
+      "id": 5,
+      "rating": 5,
+      "userName": "Michael Brown",
+      "userImg": "photo.avif",
+      "feedback": "Best college booking platform!"
+    }
+  ]
+  

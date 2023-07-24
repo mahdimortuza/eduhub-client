@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "researchPaper": "Introduction to Artificial Intelligence",
+      "authorName": "John Doe",
+      "authorImg": "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=50&q=80",
+      "universityName": "Awesome University",
+      "publishedDate": "2023-07-30",
+      "link": "https://www.red-gate.com/simple-talk/development/data-science-development/introduction-to-artificial-intelligence/"
+    },
+    {
+      "id": 2,
+      "researchPaper": "Machine Learning Fundamentals",
+      "authorName": "Jane Smith",
+      "authorImg": "https://images.unsplash.com/photo-1555888997-03e986fc157b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=50&q=80",
+      "universityName": "Fantastic College",
+      "publishedDate": "2023-08-15",
+      "link": "https://towardsdatascience.com/machine-learning-basics-part-1-a36d38c7916#:~:text=Machine%20Learning%20is%20an%20application,be%20at%20least%20human%20level.&text=In%20order%20to%20perform%20the,from%20the%20data%2Dset%20provided."
+    },
+    {
+      "id": 3,
+      "researchPaper": "Advances in Data Science",
+      "authorName": "Robert Johnson",
+      "authorImg": "https://images.unsplash.com/photo-1562457753-6867bda028cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=50&q=80",
+      "universityName": "Wonderful Institute",
+      "publishedDate": "2023-09-05",
+      "link": "https://link.springer.com/book/10.1007/978-3-030-79891-8"
+    }
+  ]
+  

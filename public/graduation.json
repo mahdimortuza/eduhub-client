@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1542019886894-8346ec5e3e4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80",
+      "partyDate": "2023-07-30",
+      "collegeName": "ABC University"
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1620458738323-4148c6093433?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80",
+      "partyDate": "2023-08-15",
+      "collegeName": "KUV College"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://images.unsplash.com/photo-1620458840530-820e1853f682?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80",
+      "partyDate": "2023-09-05",
+      "collegeName": "LTR Institute"
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://images.unsplash.com/photo-1594750852517-f37738fa2384?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80",
+      "partyDate": "2023-10-20",
+      "collegeName": "Lorem School"
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80",
+      "partyDate": "2023-11-12",
+      "collegeName": "Times Academy"
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://images.unsplash.com/photo-1596068301366-7179b696f0cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80",
+      "partyDate": "2023-12-25",
+      "collegeName": "BUP College"
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://images.unsplash.com/photo-1591218214141-45545921d2d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80",
+      "partyDate": "2024-01-10",
+      "collegeName": "JNU University"
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1681493785129-ab493b99f421?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=390&q=80",
+      "partyDate": "2024-02-14",
+      "collegeName": "JKKINU School"
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://images.unsplash.com/photo-1627556704353-016baeb12c79?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80",
+      "partyDate": "2024-03-18",
+      "collegeName": "RU Institute"
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://images.unsplash.com/photo-1625608017880-d74254620a62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=380&q=80",
+      "partyDate": "2024-04-22",
+      "collegeName": "CU College"
+    }
+  ]
+  
